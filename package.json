@@ -6,6 +6,10 @@
   "publisher": "zhangjian",
   "icon": "assets/icon.jpg",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zyzhangjian/flutter-getx-template"
+  },
   "engines": {
     "vscode": "^1.96.0"
   },
