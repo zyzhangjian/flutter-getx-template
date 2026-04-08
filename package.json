@@ -2,7 +2,7 @@
   "name": "flutter-getx-template",
   "displayName": "Flutter GetX Page Generator (Controller + Binding + View)",
   "description": "Quickly generate Flutter GetX pages (controller, binding, view) with one click. Boost your Flutter development productivity.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publisher": "zhangjian",
   "icon": "assets/icon.jpg",
   "license": "MIT",

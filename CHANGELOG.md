@@ -2,7 +2,7 @@
 
 All notable changes to the "flutter-getx-template" extension will be documented in this file.
 
-## [1.0.0]
+## [2.0.0]
 
 ### Changed
 
