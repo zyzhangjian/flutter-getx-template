@@ -2,6 +2,15 @@
 
 All notable changes to the "flutter-getx-template" extension will be documented in this file.
 
+## [2.0.1]
+
+### Changed
+
+- Improve Marketplace metadata (display name, description, and keywords)
+- Improve README documentation and usage guide
+- Rename command title from **New GetX Template** to **New GetX Page**
+- Optimize search keywords
+
 ## [2.0.0]
 
 ### Changed

@@ -1,8 +1,8 @@
 {
   "name": "flutter-getx-template",
   "displayName": "Flutter GetX Page Generator (Controller + Binding + View)",
-  "description": "Quickly generate Flutter GetX pages (controller, binding, view) with one click. Boost your Flutter development productivity.",
-  "version": "2.0.0",
+  "description": "Generate GetX Controller, Binding, and Page files for Flutter with one click.",
+  "version": "2.0.1",
   "publisher": "zhangjian",
   "icon": "assets/icon.jpg",
   "license": "MIT",
@@ -14,21 +14,21 @@
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Snippets"
+    "Other"
   ],
   "keywords": [
     "flutter",
-    "flutter getx",
     "getx",
+    "flutter getx",
     "getx generator",
-    "flutter generator",
-    "flutter code generator",
-    "flutter scaffold",
+    "getx page",
+    "getx page generator",
+    "flutter getx generator",
     "flutter page generator",
-    "getx scaffold",
+    "getx controller",
+    "getx binding",
     "getx template",
-    "flutter boilerplate",
-    "flutter productivity"
+    "flutter boilerplate"
   ],
   "activationEvents": [
     "onCommand:flutter getx.newGetxTemplate"
@@ -38,7 +38,7 @@
     "commands": [
       {
         "command": "flutter getx.newGetxTemplate",
-        "title": "Flutter GetX: New GetX Template",
+        "title": "New GetX Page",
         "category": "Flutter GetX"
       }
     ],
@@ -61,16 +61,18 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "npm run compile-tests && npm run compile && npm run lint",
     "lint": "eslint src",
-    "test": "vscode-test"
+    "test": "vscode-test",
+    "release": "bash ./scripts/release.sh"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
-    "@types/node": "20.x",
+    "@types/node": "^20.19.43",
     "@types/vscode": "^1.96.0",
-    "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.4.1",
     "@typescript-eslint/eslint-plugin": "^8.17.0",
     "@typescript-eslint/parser": "^8.17.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "@vscode/vsce": "^3.9.2",
     "eslint": "^9.16.0",
     "ts-loader": "^9.5.1",
     "typescript": "^5.7.2",

@@ -1,0 +1,542 @@
+{
+  "version": "2.14",
+  "children": [
+    {
+      "type": "frame",
+      "id": "bi8Au",
+      "x": 0,
+      "y": 0,
+      "name": "Frame",
+      "clip": true,
+      "width": 800,
+      "height": 600,
+      "fill": "#FFFFFF",
+      "layout": "none"
+    },
+    {
+      "type": "frame",
+      "id": "W8MvzC",
+      "x": 900,
+      "y": 0,
+      "name": "GetX Logo Explorations",
+      "clip": true,
+      "width": 1320,
+      "height": 620,
+      "fill": "#101827",
+      "cornerRadius": 28,
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "T86lxq",
+          "x": 48,
+          "y": 38,
+          "name": "Board Title",
+          "fill": "#F8FAFC",
+          "content": "Flutter GetX · Logo Directions",
+          "fontFamily": "Geist",
+          "fontSize": 28,
+          "fontWeight": "700"
+        },
+        {
+          "type": "text",
+          "id": "eDwjB",
+          "x": 48,
+          "y": 78,
+          "name": "Board Subtitle",
+          "fill": "#94A3B8",
+          "content": "Built for a VS Code extension — legible at 128 px, distinct in the marketplace.",
+          "fontFamily": "Inter",
+          "fontSize": 15,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "rectangle",
+          "id": "g33vx",
+          "x": 48,
+          "y": 116,
+          "name": "Header Rule",
+          "fill": "#334155",
+          "width": 1224,
+          "height": 1
+        },
+        {
+          "type": "frame",
+          "id": "qpGsh",
+          "x": 48,
+          "y": 154,
+          "name": "01 Blueprint Page",
+          "width": 384,
+          "height": 410,
+          "fill": "#182235",
+          "cornerRadius": 20,
+          "stroke": "#31425D",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "lv0ej",
+              "x": 26,
+              "y": 26,
+              "name": "01 Tag",
+              "fill": "#60A5FA",
+              "content": "01 · BLUEPRINT PAGE",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "A1PQv",
+              "x": 102,
+              "y": 76,
+              "name": "Blueprint Page Icon",
+              "width": 180,
+              "height": 180,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0EA5E9",
+                    "position": 0
+                  },
+                  {
+                    "color": "#4F46E5",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 42,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#02061766",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 24
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "uvaWE",
+                  "x": 43,
+                  "y": 31,
+                  "name": "Document Outline",
+                  "geometry": "M14 4h46l22 22v88h-68z m46 0v24h22m-51 25h35m-35 20h35m-35 20h20",
+                  "viewBox": [
+                    0,
+                    0,
+                    96,
+                    118
+                  ],
+                  "width": 96,
+                  "height": 118,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 7,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "A8H9Vj",
+                  "x": 91,
+                  "y": 57,
+                  "name": "Generation Bolt",
+                  "geometry": "M34 2l-30 41h23l-7 31 33-46h-23z",
+                  "viewBox": [
+                    0,
+                    0,
+                    56,
+                    76
+                  ],
+                  "fill": "#FDE047",
+                  "width": 56,
+                  "height": 76,
+                  "stroke": "#FDE047",
+                  "strokeWidth": 2,
+                  "strokeLinejoin": "round"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "IKnIW",
+              "x": 26,
+              "y": 286,
+              "name": "01 Name",
+              "fill": "#F8FAFC",
+              "content": "Blueprint Page",
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lVqHK",
+              "x": 26,
+              "y": 324,
+              "name": "01 Description",
+              "fill": "#B8C5D9",
+              "textGrowth": "fixed-width",
+              "width": 326,
+              "content": "A page outline plus bolt: clear, compact, and most literal for one-click scaffolding.",
+              "lineHeight": 1.45,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AmVUq",
+          "x": 468,
+          "y": 154,
+          "name": "02 Flow Generator",
+          "width": 384,
+          "height": 410,
+          "fill": "#201C38",
+          "cornerRadius": 20,
+          "stroke": "#4B3C75",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "GqoDs",
+              "x": 26,
+              "y": 26,
+              "name": "02 Tag",
+              "fill": "#C4B5FD",
+              "content": "02 · FLOW GENERATOR",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "ndJgY",
+              "x": 102,
+              "y": 76,
+              "name": "Flow Generator Icon",
+              "width": 180,
+              "height": 180,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#7C3AED",
+                    "position": 0
+                  },
+                  {
+                    "color": "#DB2777",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 42,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#120A2E88",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 24
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "c8yVwu",
+                  "x": 30,
+                  "y": 33,
+                  "name": "Flow Curve One",
+                  "geometry": "M12 92c0-50 37-74 85-74 22 0 33 11 33 29 0 21-17 33-38 33h-39",
+                  "viewBox": [
+                    0,
+                    0,
+                    150,
+                    140
+                  ],
+                  "width": 120,
+                  "height": 120,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 10,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "eorSB",
+                  "x": 30,
+                  "y": 33,
+                  "name": "Flow Curve Two",
+                  "geometry": "M18 115c0-31 20-43 43-43h51",
+                  "viewBox": [
+                    0,
+                    0,
+                    150,
+                    140
+                  ],
+                  "width": 120,
+                  "height": 120,
+                  "stroke": "#FDE047",
+                  "strokeWidth": 10,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "oIpCD",
+                  "x": 121,
+                  "y": 92,
+                  "name": "Flow Arrow",
+                  "geometry": "M3 3l25 14-25 14z",
+                  "viewBox": [
+                    0,
+                    0,
+                    34,
+                    34
+                  ],
+                  "fill": "#FDE047",
+                  "width": 34,
+                  "height": 34
+                },
+                {
+                  "type": "ellipse",
+                  "id": "a3F5c",
+                  "x": 22,
+                  "y": 111,
+                  "name": "Flow Node One",
+                  "fill": "#FFFFFF",
+                  "width": 24,
+                  "height": 24
+                },
+                {
+                  "type": "ellipse",
+                  "id": "U3Mnn",
+                  "x": 130,
+                  "y": 29,
+                  "name": "Flow Node Two",
+                  "fill": "#FFFFFF",
+                  "width": 24,
+                  "height": 24
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ds5lw",
+              "x": 26,
+              "y": 286,
+              "name": "02 Name",
+              "fill": "#F8FAFC",
+              "content": "Flow Generator",
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "Zpq5L",
+              "x": 26,
+              "y": 324,
+              "name": "02 Description",
+              "fill": "#D5CCEF",
+              "textGrowth": "fixed-width",
+              "width": 326,
+              "content": "An abstract routing flow that hints at GetX navigation, binding, and generation.",
+              "lineHeight": 1.45,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "azuYe",
+          "x": 888,
+          "y": 154,
+          "name": "03 Command Spark",
+          "width": 384,
+          "height": 410,
+          "fill": "#132A2A",
+          "cornerRadius": 20,
+          "stroke": "#255B5B",
+          "strokeWidth": 1,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "yMAsX",
+              "x": 26,
+              "y": 26,
+              "name": "03 Tag",
+              "fill": "#5EEAD4",
+              "content": "03 · COMMAND SPARK",
+              "fontFamily": "Geist Mono",
+              "fontSize": 12,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "p2lXVd",
+              "x": 102,
+              "y": 76,
+              "name": "Command Spark Icon",
+              "width": 180,
+              "height": 180,
+              "fill": {
+                "type": "gradient",
+                "gradientType": "linear",
+                "enabled": true,
+                "rotation": 135,
+                "size": {
+                  "height": 1
+                },
+                "colors": [
+                  {
+                    "color": "#0F766E",
+                    "position": 0
+                  },
+                  {
+                    "color": "#0369A1",
+                    "position": 1
+                  }
+                ]
+              },
+              "cornerRadius": 42,
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00151588",
+                "offset": {
+                  "x": 0,
+                  "y": 14
+                },
+                "blur": 24
+              },
+              "layout": "none",
+              "children": [
+                {
+                  "type": "path",
+                  "id": "B3pNBP",
+                  "x": 34,
+                  "y": 46,
+                  "name": "Terminal Frame",
+                  "geometry": "M8 8h96v72h-96z m19 21l19 15-19 15m31 0h27",
+                  "viewBox": [
+                    0,
+                    0,
+                    112,
+                    88
+                  ],
+                  "width": 112,
+                  "height": 88,
+                  "stroke": "#FFFFFF",
+                  "strokeWidth": 8,
+                  "strokeLinejoin": "round",
+                  "strokeLinecap": "round"
+                },
+                {
+                  "type": "path",
+                  "id": "Q575M",
+                  "x": 116,
+                  "y": 22,
+                  "name": "Command Spark",
+                  "geometry": "M24 0l5 18 19 6-19 6-5 18-6-18-18-6 18-6z",
+                  "viewBox": [
+                    0,
+                    0,
+                    48,
+                    48
+                  ],
+                  "fill": "#FDE047",
+                  "width": 48,
+                  "height": 48
+                },
+                {
+                  "type": "ellipse",
+                  "id": "QvhMc",
+                  "x": 48,
+                  "y": 58,
+                  "name": "Terminal Dot One",
+                  "fill": "#5EEAD4",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "ellipse",
+                  "id": "AWffS",
+                  "x": 62,
+                  "y": 58,
+                  "name": "Terminal Dot Two",
+                  "fill": "#5EEAD4",
+                  "width": 8,
+                  "height": 8
+                },
+                {
+                  "type": "ellipse",
+                  "id": "uFcae",
+                  "x": 76,
+                  "y": 58,
+                  "name": "Terminal Dot Three",
+                  "fill": "#5EEAD4",
+                  "width": 8,
+                  "height": 8
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "oWKr2",
+              "x": 26,
+              "y": 286,
+              "name": "03 Name",
+              "fill": "#F8FAFC",
+              "content": "Command Spark",
+              "fontFamily": "Geist",
+              "fontSize": 22,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "O8qdg",
+              "x": 26,
+              "y": 324,
+              "name": "03 Description",
+              "fill": "#B7D6D3",
+              "textGrowth": "fixed-width",
+              "width": 326,
+              "content": "A command prompt and sparkle: more energetic and developer-oriented than literal.",
+              "lineHeight": 1.45,
+              "fontFamily": "Inter",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "fileToken": "5951f489-9b11-4971-ab7d-bfc1b7d93b11"
+}

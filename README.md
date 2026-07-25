@@ -1,92 +1,122 @@
-# Flutter GetX Page Generator
+# Flutter GetX Page Generator (Controller + Binding + View)
 
-`Flutter GetX Page Generator` is a Visual Studio Code extension for quickly creating minimal GetX page scaffolding in Flutter projects.
+⚡ Generate **GetX Controller, Binding, and Page** with **one click**.
 
-It helps you generate a clean starting structure with right-click support in the Explorer and a command in the Command Palette.
+Create clean GetX page templates directly from the **VS Code Explorer**.
 
-## Preview
+Stop writing repetitive boilerplate code and start coding faster.
+
+---
+
+## 🎬 Preview
 
 ![Usage Demo](./assets/screen_record.gif)
 
-## Features
+---
 
-- Generate minimal GetX files for a feature or page
-- Support Explorer right-click menu
-- Support Command Palette command
-- Optional subfolder creation based on the entered name
+## ✨ Features
 
-## Generated Files
+- 🚀 One-click GetX page generation
+- 📁 Optional feature folder creation
+- 🧩 Automatically generates GetX Controller, Binding and Page files
+- 🖱 Available from the Explorer right-click menu
+- ⌨ Available from the Command Palette
+- 🐍 Automatically converts file names to `snake_case`
+- 🏷 Automatically converts class names to `PascalCase`
+- 💙 Lightweight and zero configuration
 
-When you enter a name such as `UserProfile`, the extension generates:
+---
 
-- `user_profile_controller.dart`
-- `user_profile_binding.dart`
-- `user_profile_page.dart`
+## 📂 Generated Structure
 
-If you choose to create a new folder, the files will be generated inside:
+When creating a page named **UserProfile**, the extension generates:
 
-- `user_profile/`
-
-## Template Example
-
-### `user_profile_controller.dart`
-
-```dart
-import 'package:get/get.dart';
-
-class UserProfileController extends GetxController {
-}
+```text
+user_profile/
+├── user_profile_binding.dart
+├── user_profile_controller.dart
+└── user_profile_page.dart
 ```
 
-### `user_profile_binding.dart`
+If **Create Folder = No**, the generated files will be created directly in the selected directory.
 
-```dart
-import 'package:get/get.dart';
+---
 
-import 'user_profile_controller.dart';
+## 🚀 Usage
 
-class UserProfileBinding extends Bindings {
-  @override
-  void dependencies() {
-    Get.lazyPut<UserProfileController>(() => UserProfileController());
-  }
-}
+### Method 1 (Recommended)
+
+1. Right-click the target folder in the VS Code Explorer.
+2. Select **Flutter GetX: New GetX Page**.
+3. Enter a page name.
+4. Choose whether to create a new folder.
+5. Done 🎉
+
+### Method 2
+
+Open the Command Palette (`Ctrl + Shift + P` / `Cmd + Shift + P`)
+
+Run **Flutter GetX: New GetX Page**, then:
+
+1. Select the target folder.
+2. Enter a page name.
+3. Choose whether to create a new folder.
+
+---
+
+## 💡 Example
+
+Input:
+
+```text
+UserProfile
 ```
 
-### `user_profile_page.dart`
+Generated classes:
 
 ```dart
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-
-import 'user_profile_controller.dart';
-
-class UserProfilePage extends GetView<UserProfileController> {
-  const UserProfilePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const Scaffold();
-  }
-}
+UserProfileController
+UserProfileBinding
+UserProfilePage
 ```
 
-## Usage
+---
 
-1. Open your Flutter project in VS Code.
-2. Right-click a folder in the Explorer.
-3. Select `Flutter GetX: New GetX Template`.
-4. Enter a name such as `UserProfile` or `user_profile`.
-5. Choose whether to create a new folder.
-6. The extension will generate the GetX template files.
+## ❤️ Why Flutter GetX Page Generator?
 
-You can also open the Command Palette and run:
+Unlike large Flutter code generators, this extension focuses on one thing:
 
-- `Flutter GetX: New GetX Template`
+- ⚡ One-click generation
+- 💙 Lightweight
+- 🚀 Zero configuration
+- 📁 Clean GetX page structure
+- 🖱 Right-click and start coding
 
-## Notes
+---
 
-- The generated template assumes your Flutter project already uses the `get` package.
-- The extension is designed to generate a minimal starting structure, so it does not add business logic by default.
-- Folder and file names are generated in `snake_case`.
-- Dart class names are generated in `PascalCase`.
+## 📋 Requirements
+
+- Visual Studio Code
+- Flutter 3.x+
+- Flutter project
+- GetX package
+
+---
+
+## 📌 Notes
+
+- This extension assumes your project already uses the **get** package.
+- Business logic is intentionally **not** generated.
+- File names use **snake_case**.
+- Dart class names use **PascalCase**.
+
+
+---
+
+## ⭐ Support
+
+Found a bug or have a feature request?
+
+Feel free to open an Issue on GitHub.
+
+If this extension saves you time, please consider leaving a ⭐ rating on the Visual Studio Marketplace.
